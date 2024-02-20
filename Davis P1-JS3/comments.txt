@@ -1,0 +1,48 @@
+<!-- 
+        Breakdown of steps:
+        
+        1. Create the Project Folder: Lastname P# - JS3.
+        2. Create the index.html File with a Boilerplate.
+        3. Update the <title> to: Lastname P# - JS3. 
+        4. Type all the "Breakdown of Steps:" as HTML comments inside the <body> (as you complete them). 
+            *All <body> code will go ABOVE the comments.
+        5. Create a style.css File.
+        6. <link> the style.css File in the <head>. 
+        7. Write a CSS rule in style.css that makes ALL h1s #EF6703. 
+        8. In the <body> (above the Breakdown of Steps comments) - create an h1 with a text string of
+            Firstname Lastname P# - JS3
+        9. Create a main.js File.
+        10. In the <head> connect the main.js file to your document (index.html) with this
+            HTML parent: <script src="main.js"></script>
+            *Note we can also place it at the end of the body - that would ensure all the HTML is loaded before any JS statements are ran.
+        11. Download the scriptExample.png image file to your JS3 Folder: 
+            *It is attached to the assignment.
+            *Without this image file in your (root) project folder, the img code below will not run on your page.
+        12. In the main.js write: alert(document.title);
+        13. In the style.css create a rule for the body that centers all text.
+        14. In the style.css create a rule for an id called Notes that looks like this:
+                #Notes {
+                    margin: auto;
+                    padding: 10px 40px;
+                    width: fit-content;
+                    background-color: #c0c0c0;
+                    text-align: left;
+                    font-size: 30px;
+                }
+        15. In your document (index.html), in the <body> add this information:
+            <h2>Internal vs External Scripting</h2>
+            <div id="Notes">
+                <ul>
+                    <li><b><u>INTERNAL</u></b> JS statements are written <u>INSIDE</u> the document (index.html) with 'script' elements.</li>
+                    <li><b><u>EXTERNAL</u></b> scripting uses a JS src attribute to call a file like this: <img src="scriptExample.png"></li>
+                    <ul>
+                        <li style="list-style-type: '* '">All the JS Statements are then written in the assigned JS src file.</li>
+                        <li style="list-style-type: '* '">Our assigned JS src file is <u>main.js</u> <b>NOT</b> <u>fileName.js</u></li>
+                        <li style="list-style-type: '* '">Our JS src file needs to be in our (root) project folder to work with way.</li>
+                        <li style="list-style-type: '* '">We'll place our <img src="scriptExample.png"> element at the bottom of the head.</li>
+                        <li style="list-style-type: '* '">External Scripting is safer, faster, and separates HTML and JS for organization.</li>
+                        <li style="list-style-type: '* '">'script' elements are for HTML only NOT JS src files.</li>
+                    </ul>
+                </ul>
+            </div>
+    -->

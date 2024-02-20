@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+    color: red
+}
+
+div{
+    margin: auto;
+    font-weight: 100;
+    background-color: lightgoldenrodyellow;
+    align-items: center;
+}
+
+img {
+    height: 500px;
+}

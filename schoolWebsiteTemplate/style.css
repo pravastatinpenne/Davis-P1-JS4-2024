@@ -1,0 +1,56 @@
+body {
+    background-color: #dbe1e7;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+header {
+    color: white;
+    background-color:#429bf5;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(51, 51, 51);
+    color: #dbe1e7;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+li a {
+    color: #dbe1e7;
+}
+
+#AUheader {
+    background-color: rgb(74, 74, 140);
+}
+
+#ACAheader {
+    background-color: rgb(74, 74, 200);
+}
+
+#CONheader {
+    background-color: rgb(72, 96, 124);
+}
+
+#ATLheader {
+    background-color: rgb(0, 85, 182);
+}
+
+footer {
+    background-color: rgb(51, 51, 51);
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
